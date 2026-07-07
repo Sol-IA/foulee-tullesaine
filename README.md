@@ -44,4 +44,4 @@ Puis bump `?v=` dans `index.html`.
 ## Contacts organisateurs
 - New Wave — Marie Pizzala · 06 13 80 03 11 · contact@newwave04.fr
 - ADLV — Jean-Luc Bou · 06 69 50 72 47 · athletismedlvstet@gmail.com
-- Bénéficiaire : association La Vista 04 Sud (Manosque)
+- Bénéficiaire : Maison Sport-Santé de Manosque (label national, activité physique adaptée)
