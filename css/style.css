@@ -471,6 +471,9 @@ h1,h2,h3,h4{font-family:var(--font-display);font-weight:700;line-height:1.05;let
   .hero__meta{font-size:.88rem}
 }
 
+/* Retours à la ligne des sous-titres : désactivés sur petit écran (flux naturel) */
+@media (max-width:600px){br.brk{display:none}}
+
 /* Reduced motion */
 @media (prefers-reduced-motion:reduce){
   *{animation-duration:.001ms!important;animation-iteration-count:1!important;transition-duration:.001ms!important}
