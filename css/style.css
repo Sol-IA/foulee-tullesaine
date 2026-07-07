@@ -276,10 +276,11 @@ h1,h2,h3,h4{font-family:var(--font-display);font-weight:700;line-height:1.05;let
 .parcours__hint a{color:var(--rose-deep);font-weight:700;text-decoration:underline;text-underline-offset:2px}
 
 /* ===== GALERIE ===== */
-.gallery__grid{display:grid;grid-template-columns:2fr 1fr 1fr;gap:1rem;grid-auto-rows:1fr}
+.gallery__grid{display:grid;grid-template-columns:2fr 1fr 1fr;gap:1rem;grid-auto-rows:195px}
 .gallery__item{position:relative;border:0;padding:0;cursor:pointer;border-radius:var(--radius);overflow:hidden;
-  background:var(--ink-2);aspect-ratio:3/2;display:block}
-.gallery__item--lg{grid-row:span 2;aspect-ratio:auto}
+  background:var(--ink-2);display:block}
+.gallery__item--lg{grid-row:span 2}
+.gallery__item:nth-child(4){grid-column:span 2}
 .gallery__item img{width:100%;height:100%;object-fit:cover;transition:transform .5s var(--transition)}
 .gallery__item::after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(20,9,16,.35),transparent 50%);opacity:0;transition:opacity .3s}
 .gallery__item:hover img{transform:scale(1.05)}
@@ -430,8 +431,9 @@ h1,h2,h3,h4{font-family:var(--font-display);font-weight:700;line-height:1.05;let
   .become__packs{grid-template-columns:1fr}
   .footer__grid{grid-template-columns:1fr 1fr;gap:2rem}
   .parcours__stats{grid-template-columns:repeat(2,1fr)}
-  .gallery__grid{grid-template-columns:1fr 1fr}
-  .gallery__item--lg{grid-column:span 2;grid-row:auto;aspect-ratio:16/9}
+  .gallery__grid{grid-template-columns:1fr 1fr;grid-auto-rows:175px}
+  .gallery__item--lg{grid-row:span 1}
+  .gallery__item:nth-child(4){grid-column:span 1}
 }
 @media (max-width:760px){
   .topbar__item--hide{display:none}
@@ -448,8 +450,9 @@ h1,h2,h3,h4{font-family:var(--font-display);font-weight:700;line-height:1.05;let
   .countdown{gap:.5rem}
   .cd__cell{min-width:0;flex:1;padding:.8rem .4rem}
   .courses__grid,.infos__grid{grid-template-columns:1fr}
-  .gallery__grid{grid-template-columns:1fr}
-  .gallery__item--lg{grid-column:auto;aspect-ratio:3/2}
+  .gallery__grid{grid-template-columns:1fr;grid-auto-rows:210px}
+  .gallery__item--lg{grid-column:auto;grid-row:span 1}
+  .gallery__item:nth-child(4){grid-column:span 1}
   .partners__grid{grid-template-columns:repeat(3,1fr)}
   .partner-hero{grid-template-columns:1fr;text-align:center;padding:1.8rem}
   .partner-hero__logo{width:180px;margin:0 auto}
