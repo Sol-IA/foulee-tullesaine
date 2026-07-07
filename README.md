@@ -27,7 +27,7 @@ Visuels intégrés : hero + galerie + CTA final = 3 vraies photos des éditions 
 ## ⚠️ À mettre à jour avant mise en ligne
 0. **Retirer le `noindex`** : le `<meta name="robots" content="noindex,nofollow">` dans `index.html` bloque l'indexation de la preview GitHub Pages. **À supprimer impérativement avant la prod** sur le domaine final, sinon le site ne sera jamais référencé.
 1. **Lien Sportips exact** : remplacer `https://www.sportips.fr/` par l'URL directe de la billetterie 2026 (ex. `https://sportips.fr/inscription/TUL26`) une fois ouverte. Chercher `sportips.fr` dans `index.html`.
-2. **Domaine** : `canonical`, OG, `sitemap.xml`, `robots.txt` utilisent le placeholder `https://www.fouleetullesaine.fr/`. Adapter au domaine réel.
+2. **Domaine** : `canonical`, OG, `sitemap.xml`, `robots.txt` utilisent le placeholder `https://foulee-tullesaine.fr/`. Adapter au domaine réel.
 3. **Photos** (optionnel) : 3 photos en place. En ajouter d'autres enrichirait la galerie (grille prévue pour s'étendre).
 
 ## Build

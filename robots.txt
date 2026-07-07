@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.fouleetullesaine.fr/sitemap.xml
+Sitemap: https://foulee-tullesaine.fr/sitemap.xml
