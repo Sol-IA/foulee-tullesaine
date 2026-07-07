@@ -27,7 +27,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,600;12..96,700;12..96,800&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
-<link rel="stylesheet" href="css/style.min.css?v=8">
+<link rel="stylesheet" href="css/style.min.css?v=9">
 
 <!-- JSON-LD SportsEvent -->
 <script type="application/ld+json">
@@ -326,18 +326,18 @@
       <p class="section__sub">Le souffle du départ, les familles, les sourires : retour sur les éditions précédentes au parc Max Trouche.</p>
     </div>
     <div class="gallery__grid reveal">
-      <button class="gallery__item gallery__item--lg" data-full="assets/course-rose.jpg" aria-label="Agrandir la photo : le peloton en rose">
-        <img src="assets/course-rose.jpg" alt="Le peloton de coureuses en rose lancé sur le 10 km, dans l'esprit Octobre Rose" loading="lazy">
-      </button>
-      <button class="gallery__item" data-full="assets/hero.jpg" aria-label="Agrandir la photo : le départ du 10 km">
-        <img src="assets/hero.jpg" alt="Le départ du 10 km sous l'arche, coureurs lancés au parc Max Trouche" loading="lazy">
-      </button>
-      <button class="gallery__item" data-full="assets/start-2024.jpg" aria-label="Agrandir la photo : la ligne de départ 2024">
-        <img src="assets/start-2024.jpg" alt="La ligne de départ de la Foulée Tullésaine sous l'arche Decathlon" loading="lazy">
-      </button>
-      <button class="gallery__item" data-full="assets/start-familles.jpg" aria-label="Agrandir la photo : familles et enfants au départ">
-        <img src="assets/start-familles.jpg" alt="Familles, enfants et marcheurs au départ de la course solidaire" loading="lazy">
-      </button>
+      <button class="gallery__item" data-full="assets/gallery/g01.jpg" aria-label="Agrandir : les concurrents sur la ligne de départ"><img src="assets/gallery/g01.jpg" alt="Les concurrents rassemblés sur la ligne de départ sous l'arche" loading="lazy"></button>
+      <button class="gallery__item" data-full="assets/gallery/g02.jpg" aria-label="Agrandir : le peloton lancé"><img src="assets/gallery/g02.jpg" alt="Le peloton lancé dans l'allée du parc Max Trouche" loading="lazy"></button>
+      <button class="gallery__item" data-full="assets/gallery/g03.jpg" aria-label="Agrandir : la course des enfants"><img src="assets/gallery/g03.jpg" alt="Les enfants sur leur course, encouragés par le public" loading="lazy"></button>
+      <button class="gallery__item" data-full="assets/gallery/g04.jpg" aria-label="Agrandir : coureuses en rose"><img src="assets/gallery/g04.jpg" alt="Coureuses en rose, dans l'esprit Octobre Rose" loading="lazy"></button>
+      <button class="gallery__item" data-full="assets/gallery/g05.jpg" aria-label="Agrandir : le relais famille"><img src="assets/gallery/g05.jpg" alt="Un duo du relais famille, main dans la main" loading="lazy"></button>
+      <button class="gallery__item" data-full="assets/gallery/g06.jpg" aria-label="Agrandir : une coureuse en plein effort"><img src="assets/gallery/g06.jpg" alt="Une coureuse en plein effort sous les platanes" loading="lazy"></button>
+      <button class="gallery__item" data-full="assets/gallery/g07.jpg" aria-label="Agrandir : coureurs sur le parcours"><img src="assets/gallery/g07.jpg" alt="Coureurs et familles au fil du parcours" loading="lazy"></button>
+      <button class="gallery__item" data-full="assets/gallery/g08.jpg" aria-label="Agrandir : l'arrivée bras levés"><img src="assets/gallery/g08.jpg" alt="L'arrivée, bras levés, sous les encouragements" loading="lazy"></button>
+      <button class="gallery__item" data-full="assets/gallery/g09.jpg" aria-label="Agrandir : le grand départ groupé"><img src="assets/gallery/g09.jpg" alt="Le grand départ groupé sous l'arche Decathlon" loading="lazy"></button>
+      <button class="gallery__item" data-full="assets/gallery/g10.jpg" aria-label="Agrandir : au cœur du peloton"><img src="assets/gallery/g10.jpg" alt="Au cœur du peloton, en pleine course" loading="lazy"></button>
+      <button class="gallery__item" data-full="assets/gallery/g11.jpg" aria-label="Agrandir : deux coureurs à l'arrivée"><img src="assets/gallery/g11.jpg" alt="Deux coureurs à l'approche de l'arrivée" loading="lazy"></button>
+      <button class="gallery__item" data-full="assets/gallery/g12.jpg" aria-label="Agrandir : l'ambiance du parc"><img src="assets/gallery/g12.jpg" alt="L'ouverture de la course, ambiance du parc Max Trouche" loading="lazy"></button>
     </div>
   </div>
 </section>
@@ -447,12 +447,14 @@
 <!-- Lightbox galerie -->
 <div class="lightbox" id="lightbox" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Photo agrandie">
   <button class="lightbox__close" aria-label="Fermer la photo">&times;</button>
+  <button class="lightbox__nav lightbox__nav--prev" aria-label="Photo précédente">&#8249;</button>
   <img class="lightbox__img" src="" alt="">
+  <button class="lightbox__nav lightbox__nav--next" aria-label="Photo suivante">&#8250;</button>
 </div>
 
 <!-- Sticky CTA mobile -->
 <a class="sticky-cta" href="https://www.sportips.fr/" target="_blank" rel="noopener">S'inscrire à la Foulée Tullésaine</a>
 
-<script src="js/main.min.js?v=3" defer></script>
+<script src="js/main.min.js?v=4" defer></script>
 </body>
 </html>
