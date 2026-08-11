@@ -257,6 +257,12 @@ h1,h2,h3,h4{font-family:var(--font-display);font-weight:700;line-height:1.05;let
 .course__cta-ico svg{width:24px;height:24px;fill:none;stroke:#fff;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}
 .course__cta-link{margin-top:1.2rem;font-weight:700;color:#fff;display:inline-flex;align-items:center;gap:.4rem}
 .course__cta-link::after{content:"↗"}
+/* CTA en bandeau pleine largeur (dernière ligne de la grille) */
+.course--wide{grid-column:1/-1;flex-direction:row;align-items:center;gap:1.6rem;padding:1.8rem 2rem}
+.course--wide .course__cta-ico{margin-bottom:0;flex:none}
+.course--wide .course__name{margin-bottom:.3rem}
+.course--wide .course__desc{flex-grow:0;max-width:60ch}
+.course--wide .course__cta-link{margin-top:0;margin-left:auto;white-space:nowrap}
 .courses__note{text-align:center;color:var(--muted-2);font-size:.88rem;margin-top:2rem}
 
 /* =========================================================
@@ -481,6 +487,8 @@ h1,h2,h3,h4{font-family:var(--font-display);font-weight:700;line-height:1.05;let
   .countdown{gap:.5rem}
   .cd__cell{min-width:0;flex:1;padding:.8rem .4rem}
   .courses__grid,.infos__grid{grid-template-columns:1fr}
+  .course--wide{flex-direction:column;align-items:flex-start;gap:1rem;padding:1.8rem}
+  .course--wide .course__cta-link{margin-left:0}
   .gallery__grid{grid-template-columns:repeat(2,1fr);gap:.7rem}
   .partners__grid{grid-template-columns:repeat(2,1fr)}
   .partner-hero{grid-template-columns:1fr;text-align:center;padding:1.8rem}
